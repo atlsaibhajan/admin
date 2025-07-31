@@ -34,7 +34,14 @@
         The iframe element. We give it an ID so JavaScript can easily reference it.
         The src attribute is *initially* left empty.
     -->
-    <iframe id="fullscreenIframe"></iframe>
+    <iframe id="fullscreenIframe"
+            allow="vr 'none'; 
+               camera 'none'; 
+               microphone 'none'; 
+               geolocation 'none'; 
+               midi 'none'; 
+               payment 'none';"
+	    ></iframe>
 
     <script>
 
